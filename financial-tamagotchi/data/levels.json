@@ -1,0 +1,203 @@
+[
+  {
+    "level": 1,
+    "title": "Новичок",
+    "xpToNext": 40,
+    "unlocks": []
+  },
+  {
+    "level": 2,
+    "title": "Новичок",
+    "xpToNext": 90,
+    "unlocks": [
+      "Магазин косметики"
+    ]
+  },
+  {
+    "level": 3,
+    "title": "Ученик",
+    "xpToNext": 140,
+    "unlocks": [
+      "Ежедневные квесты"
+    ]
+  },
+  {
+    "level": 4,
+    "title": "Ученик",
+    "xpToNext": 195,
+    "unlocks": []
+  },
+  {
+    "level": 5,
+    "title": "Джуниор",
+    "xpToNext": 255,
+    "unlocks": [
+      "Питомец «Плюша»"
+    ]
+  },
+  {
+    "level": 6,
+    "title": "Джуниор",
+    "xpToNext": 315,
+    "unlocks": []
+  },
+  {
+    "level": 7,
+    "title": "Джуниор",
+    "xpToNext": 375,
+    "unlocks": []
+  },
+  {
+    "level": 8,
+    "title": "Хранитель бюджета",
+    "xpToNext": 435,
+    "unlocks": [
+      "Вторая стадия эволюции"
+    ]
+  },
+  {
+    "level": 9,
+    "title": "Хранитель бюджета",
+    "xpToNext": 500,
+    "unlocks": []
+  },
+  {
+    "level": 10,
+    "title": "Хранитель бюджета",
+    "xpToNext": 565,
+    "unlocks": [
+      "Питомец «Искра»"
+    ]
+  },
+  {
+    "level": 11,
+    "title": "Хранитель бюджета",
+    "xpToNext": 630,
+    "unlocks": []
+  },
+  {
+    "level": 12,
+    "title": "Эконом-мастер",
+    "xpToNext": 695,
+    "unlocks": [
+      "Второй слот питомца"
+    ]
+  },
+  {
+    "level": 13,
+    "title": "Эконом-мастер",
+    "xpToNext": 765,
+    "unlocks": []
+  },
+  {
+    "level": 14,
+    "title": "Эконом-мастер",
+    "xpToNext": 830,
+    "unlocks": [
+      "Питомец «Кефир»"
+    ]
+  },
+  {
+    "level": 15,
+    "title": "Эконом-мастер",
+    "xpToNext": 900,
+    "unlocks": []
+  },
+  {
+    "level": 16,
+    "title": "Стратег",
+    "xpToNext": 970,
+    "unlocks": []
+  },
+  {
+    "level": 17,
+    "title": "Стратег",
+    "xpToNext": 1040,
+    "unlocks": []
+  },
+  {
+    "level": 18,
+    "title": "Стратег",
+    "xpToNext": 1110,
+    "unlocks": [
+      "Третья стадия эволюции",
+      "Питомец «Бублик»"
+    ]
+  },
+  {
+    "level": 19,
+    "title": "Стратег",
+    "xpToNext": 1180,
+    "unlocks": []
+  },
+  {
+    "level": 20,
+    "title": "Маг бюджета",
+    "xpToNext": 1255,
+    "unlocks": []
+  },
+  {
+    "level": 21,
+    "title": "Маг бюджета",
+    "xpToNext": 1325,
+    "unlocks": []
+  },
+  {
+    "level": 22,
+    "title": "Маг бюджета",
+    "xpToNext": 1400,
+    "unlocks": []
+  },
+  {
+    "level": 23,
+    "title": "Маг бюджета",
+    "xpToNext": 1470,
+    "unlocks": []
+  },
+  {
+    "level": 24,
+    "title": "Маг бюджета",
+    "xpToNext": 1545,
+    "unlocks": [
+      "Питомец «Драк»"
+    ]
+  },
+  {
+    "level": 25,
+    "title": "Легенда",
+    "xpToNext": 1620,
+    "unlocks": []
+  },
+  {
+    "level": 26,
+    "title": "Легенда",
+    "xpToNext": 1695,
+    "unlocks": []
+  },
+  {
+    "level": 27,
+    "title": "Легенда",
+    "xpToNext": 1770,
+    "unlocks": []
+  },
+  {
+    "level": 28,
+    "title": "Легенда",
+    "xpToNext": 1845,
+    "unlocks": []
+  },
+  {
+    "level": 29,
+    "title": "Легенда",
+    "xpToNext": 1920,
+    "unlocks": []
+  },
+  {
+    "level": 30,
+    "title": "Гуру денег",
+    "xpToNext": 0,
+    "unlocks": [
+      "Легендарный скин «Космос»"
+    ]
+  }
+]

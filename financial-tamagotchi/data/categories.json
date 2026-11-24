@@ -1,0 +1,157 @@
+[
+  {
+    "id": "grocery",
+    "name": "Продукты",
+    "icon": "🛒",
+    "color": "#6ee7b7",
+    "examples": [
+      "Пятёрочка",
+      "ВкусВилл",
+      "Продукты на неделю"
+    ],
+    "typicalMin": 250,
+    "typicalMax": 1600
+  },
+  {
+    "id": "cafe",
+    "name": "Кафе и кофе",
+    "icon": "☕",
+    "color": "#fbbf24",
+    "examples": [
+      "Кофе с собой",
+      "Обед в кафе",
+      "Завтрак с друзьями"
+    ],
+    "typicalMin": 120,
+    "typicalMax": 550
+  },
+  {
+    "id": "transport",
+    "name": "Транспорт",
+    "icon": "🚌",
+    "color": "#60a5fa",
+    "examples": [
+      "Метро",
+      "Такси",
+      "Проездной"
+    ],
+    "typicalMin": 60,
+    "typicalMax": 450
+  },
+  {
+    "id": "shopping",
+    "name": "Покупки",
+    "icon": "🛍️",
+    "color": "#f472b6",
+    "examples": [
+      "Кроссовки",
+      "Футболка",
+      "Маркетплейс"
+    ],
+    "typicalMin": 400,
+    "typicalMax": 3500
+  },
+  {
+    "id": "entertainment",
+    "name": "Развлечения",
+    "icon": "🎮",
+    "color": "#a78bfa",
+    "examples": [
+      "Кино",
+      "Концерт",
+      "Игра в Steam"
+    ],
+    "typicalMin": 250,
+    "typicalMax": 1400
+  },
+  {
+    "id": "health",
+    "name": "Здоровье",
+    "icon": "💊",
+    "color": "#34d399",
+    "examples": [
+      "Аптека",
+      "Врач",
+      "Витамины"
+    ],
+    "typicalMin": 200,
+    "typicalMax": 1800
+  },
+  {
+    "id": "home",
+    "name": "Дом",
+    "icon": "🏠",
+    "color": "#fb923c",
+    "examples": [
+      "Аренда",
+      "Хозтовары",
+      "Ремонт"
+    ],
+    "typicalMin": 300,
+    "typicalMax": 2500
+  },
+  {
+    "id": "subscriptions",
+    "name": "Подписки",
+    "icon": "📱",
+    "color": "#38bdf8",
+    "examples": [
+      "Музыка",
+      "Кино",
+      "Облако"
+    ],
+    "typicalMin": 199,
+    "typicalMax": 799
+  },
+  {
+    "id": "education",
+    "name": "Образование",
+    "icon": "📚",
+    "color": "#c084fc",
+    "examples": [
+      "Курс",
+      "Книги",
+      "Вебинар"
+    ],
+    "typicalMin": 500,
+    "typicalMax": 4500
+  },
+  {
+    "id": "gifts",
+    "name": "Подарки",
+    "icon": "🎁",
+    "color": "#f87171",
+    "examples": [
+      "День рождения",
+      "Цветы",
+      "Сувенир"
+    ],
+    "typicalMin": 400,
+    "typicalMax": 2200
+  },
+  {
+    "id": "pets",
+    "name": "Питомцы",
+    "icon": "🐾",
+    "color": "#facc15",
+    "examples": [
+      "Корм",
+      "Ветклиника",
+      "Игрушка"
+    ],
+    "typicalMin": 250,
+    "typicalMax": 1200
+  },
+  {
+    "id": "other",
+    "name": "Другое",
+    "icon": "📦",
+    "color": "#94a3b8",
+    "examples": [
+      "Разное",
+      "Мелкие траты"
+    ],
+    "typicalMin": 100,
+    "typicalMax": 900
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "name": "Бюджетный питомец",
+    "slug": "budget-buddy",
+    "version": "0.1.0-prototype",
+    "locale": "ru-RU",
+    "currency": "RUB",
+    "generatedFor": "портфолио / гейм-дизайн",
+    "disclaimer": "Все данные синтетические. Совпадения с реальными людьми случайны."
+  },
+  "energy": {
+    "max": 100,
+    "defaultDailyLimit": 1500,
+    "happyMax": 70,
+    "neutralMax": 100,
+    "healthGainWithinLimit": 5,
+    "healthRegenDaily": 2,
+    "healthLossOverspendBase": 4,
+    "healthLossOverspendPerPct": 0.15,
+    "healthLossMax": 15,
+    "healthStart": 80,
+    "leftoverEnergyToCoins": 0.25,
+    "moodLabels": {
+      "happy": "Сыт и доволен",
+      "neutral": "Слегка волнуется",
+      "sad": "Грустит из-за перерасхода",
+      "sick": "Приболел, нужно позаботиться"
+    }
+  },
+  "xp": {
+    "perExpense": 5,
+    "categoryBonus": 2,
+    "noteBonus": 3,
+    "dailyLogCap": 45,
+    "withinLimitBonus": 10,
+    "workSessionXp": 4,
+    "weeklyBonusXp": 120,
+    "levelCurve": {
+      "base": 40,
+      "exponent": 1.15,
+      "roundTo": 5,
+      "maxLevel": 30
+    }
+  },
+  "streak": {
+    "coinMultiplierPerDay": 0.02,
+    "maxMultiplier": 1.6,
+    "freezeCost": 120,
+    "maxFreezes": 2,
+    "weeklyBonusCoins": 150,
+    "weeklyBonusEvery": 7
+  },
+  "work": {
+    "sessionsPerDay": 3,
+    "baseCoins": 12,
+    "coinsPerLevel": 0.6,
+    "perfectChance": 0.25,
+    "perfectBonusCoins": 8,
+    "cooldownSeconds": 30,
+    "minigameSeconds": 5
+  },
+  "quests": {
+    "perDay": 3,
+    "rerollCost": 40,
+    "maxRerolls": 1
+  },
+  "shop": {
+    "sellRefundRatio": 0.35,
+    "dailyFoodLimit": 3,
+    "equipSlots": {
+      "hat": 1,
+      "accessory": 1,
+      "theme": 1,
+      "furniture": 3
+    }
+  },
+  "balanceTargets": {
+    "avgDailyCoins": [
+      90,
+      160
+    ],
+    "daysToCoreCosmetics": [
+      18,
+      35
+    ],
+    "daysToFullCollection": [
+      90,
+      150
+    ],
+    "overspendDaysShare": [
+      0.15,
+      0.35
+    ],
+    "day30Level": [
+      9,
+      14
+    ]
+  }
+}

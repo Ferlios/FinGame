@@ -1,0 +1,194 @@
+[
+  {
+    "id": "moss",
+    "name": "Мох",
+    "icon": "🟢",
+    "rarity": "common",
+    "price": 0,
+    "unlockLevel": 1,
+    "description": "Мшистый комочек, который впитывает твои траты как воду. Спокойный и очень голодный.",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Мох-малыш",
+        "level": 1,
+        "color": "#7dd3a0",
+        "accent": "#3f9c6b"
+      },
+      {
+        "stage": 2,
+        "name": "Мох-копилка",
+        "level": 8,
+        "color": "#5cc98a",
+        "accent": "#2f7d55"
+      },
+      {
+        "stage": 3,
+        "name": "Мох-хранитель",
+        "level": 18,
+        "color": "#3fb87a",
+        "accent": "#1f5e40"
+      }
+    ]
+  },
+  {
+    "id": "plusha",
+    "name": "Плюша",
+    "icon": "🐱",
+    "rarity": "rare",
+    "price": 400,
+    "unlockLevel": 5,
+    "description": "Плюшевая кошка с карманом вместо сердца. Мурчит, когда бюджет в плюсе.",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Плюша-котёнок",
+        "level": 1,
+        "color": "#f9a8d4",
+        "accent": "#be185d"
+      },
+      {
+        "stage": 2,
+        "name": "Плюша-фея",
+        "level": 8,
+        "color": "#f472b6",
+        "accent": "#9d174d"
+      },
+      {
+        "stage": 3,
+        "name": "Плюша-львица",
+        "level": 18,
+        "color": "#ec4899",
+        "accent": "#831843"
+      }
+    ]
+  },
+  {
+    "id": "iskra",
+    "name": "Искра",
+    "icon": "🦊",
+    "rarity": "rare",
+    "price": 900,
+    "unlockLevel": 10,
+    "description": "Лисёнок из искр. Обожает стрики и ненавидит импульсивные покупки.",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Искра-уголёк",
+        "level": 1,
+        "color": "#fdba74",
+        "accent": "#c2410c"
+      },
+      {
+        "stage": 2,
+        "name": "Искра-пламя",
+        "level": 8,
+        "color": "#fb923c",
+        "accent": "#9a3412"
+      },
+      {
+        "stage": 3,
+        "name": "Искра-солнце",
+        "level": 18,
+        "color": "#f97316",
+        "accent": "#7c2d12"
+      }
+    ]
+  },
+  {
+    "id": "kefir",
+    "name": "Кефир",
+    "icon": "👻",
+    "rarity": "epic",
+    "price": 1400,
+    "unlockLevel": 14,
+    "description": "Полупрозрачный дух старой копилки. Появляется, когда ты не тратишь лишнего.",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Кефир-дымка",
+        "level": 1,
+        "color": "#c4b5fd",
+        "accent": "#6d28d9"
+      },
+      {
+        "stage": 2,
+        "name": "Кефир-туман",
+        "level": 8,
+        "color": "#a78bfa",
+        "accent": "#5b21b6"
+      },
+      {
+        "stage": 3,
+        "name": "Кефир-призрак",
+        "level": 18,
+        "color": "#8b5cf6",
+        "accent": "#4c1d95"
+      }
+    ]
+  },
+  {
+    "id": "bublik",
+    "name": "Бублик",
+    "icon": "🐹",
+    "rarity": "epic",
+    "price": 1800,
+    "unlockLevel": 18,
+    "description": "Круглый хомяк-бухгалтер. Считает каждую копейку и прячет монеты в щеках.",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Бублик-кроха",
+        "level": 1,
+        "color": "#fde68a",
+        "accent": "#b45309"
+      },
+      {
+        "stage": 2,
+        "name": "Бублик-счётчик",
+        "level": 8,
+        "color": "#fcd34d",
+        "accent": "#92400e"
+      },
+      {
+        "stage": 3,
+        "name": "Бублик-банкир",
+        "level": 18,
+        "color": "#fbbf24",
+        "accent": "#78350f"
+      }
+    ]
+  },
+  {
+    "id": "drak",
+    "name": "Драк",
+    "icon": "🐲",
+    "rarity": "legendary",
+    "price": 3000,
+    "unlockLevel": 24,
+    "description": "Мини-дракон, который копит на сокровищницу. Легендарный питомец для легендарной дисциплины.",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Драк-ящерка",
+        "level": 1,
+        "color": "#86efac",
+        "accent": "#15803d"
+      },
+      {
+        "stage": 2,
+        "name": "Драк-змей",
+        "level": 8,
+        "color": "#4ade80",
+        "accent": "#166534"
+      },
+      {
+        "stage": 3,
+        "name": "Драк-сокровище",
+        "level": 18,
+        "color": "#22c55e",
+        "accent": "#14532d"
+      }
+    ]
+  }
+]

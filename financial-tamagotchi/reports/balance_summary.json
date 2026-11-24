@@ -1,0 +1,18 @@
+{
+  "runs": 400,
+  "days": 90,
+  "corePrice": 4020,
+  "fullPrice": 14940,
+  "p50": {
+    "avgDailyCoins": 117.0,
+    "avgDailyXp": 61.0,
+    "levelDay30": 11.0,
+    "finalLevel": 16.0,
+    "withinShare": 0.79,
+    "bestLogStreak": 56.0,
+    "bestBudgetStreak": 11.0,
+    "coreDays": 34.36,
+    "fullDays": 127.69,
+    "health": 100.0
+  }
+}

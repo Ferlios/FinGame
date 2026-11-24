@@ -1,0 +1,468 @@
+[
+  {
+    "id": "hat_beanie",
+    "name": "Шапка-бини",
+    "category": "hat",
+    "slot": "hat",
+    "price": 60,
+    "rarity": "common",
+    "unlockLevel": 1,
+    "emoji": "🧢",
+    "description": "Тёплая шапка для холодного бюджета."
+  },
+  {
+    "id": "hat_beret",
+    "name": "Берет",
+    "category": "hat",
+    "slot": "hat",
+    "price": 90,
+    "rarity": "common",
+    "unlockLevel": 1,
+    "emoji": "👒",
+    "description": "Для тех, кто тратит с французским шармом."
+  },
+  {
+    "id": "hat_cap",
+    "name": "Цилиндр",
+    "category": "hat",
+    "slot": "hat",
+    "price": 120,
+    "rarity": "rare",
+    "unlockLevel": 3,
+    "emoji": "🎩",
+    "description": "Формальный вид для серьёзных накоплений."
+  },
+  {
+    "id": "hat_grad",
+    "name": "Академическая шапочка",
+    "category": "hat",
+    "slot": "hat",
+    "price": 180,
+    "rarity": "rare",
+    "unlockLevel": 6,
+    "emoji": "🎓",
+    "description": "Диплом по экономии уже в кармане."
+  },
+  {
+    "id": "hat_party",
+    "name": "Праздничный колпак",
+    "category": "hat",
+    "slot": "hat",
+    "price": 220,
+    "rarity": "epic",
+    "unlockLevel": 9,
+    "emoji": "🥳",
+    "description": "Когда неделя без перерасхода — это праздник."
+  },
+  {
+    "id": "hat_wizard",
+    "name": "Шляпа волшебника",
+    "category": "hat",
+    "slot": "hat",
+    "price": 280,
+    "rarity": "epic",
+    "unlockLevel": 12,
+    "emoji": "🪄",
+    "description": "Превращает импульс в накопления."
+  },
+  {
+    "id": "hat_crown",
+    "name": "Корона",
+    "category": "hat",
+    "slot": "hat",
+    "price": 700,
+    "rarity": "legendary",
+    "unlockLevel": 20,
+    "emoji": "👑",
+    "description": "Только для настоящей королевской экономии."
+  },
+  {
+    "id": "acc_bow",
+    "name": "Бантик",
+    "category": "accessory",
+    "slot": "accessory",
+    "price": 90,
+    "rarity": "common",
+    "unlockLevel": 1,
+    "emoji": "🎀",
+    "description": "Маленькая деталь — большой уют."
+  },
+  {
+    "id": "acc_scarf",
+    "name": "Шарф",
+    "category": "accessory",
+    "slot": "accessory",
+    "price": 120,
+    "rarity": "common",
+    "unlockLevel": 2,
+    "emoji": "🧣",
+    "description": "Согревает даже в месяц без отпуска."
+  },
+  {
+    "id": "acc_glasses",
+    "name": "Очки",
+    "category": "accessory",
+    "slot": "accessory",
+    "price": 140,
+    "rarity": "rare",
+    "unlockLevel": 4,
+    "emoji": "🕶️",
+    "description": "Видит все мелкие подписки."
+  },
+  {
+    "id": "acc_headphones",
+    "name": "Наушники",
+    "category": "accessory",
+    "slot": "accessory",
+    "price": 220,
+    "rarity": "rare",
+    "unlockLevel": 7,
+    "emoji": "🎧",
+    "description": "Музыка для работы над бюджетом."
+  },
+  {
+    "id": "acc_medal",
+    "name": "Медаль",
+    "category": "accessory",
+    "slot": "accessory",
+    "price": 300,
+    "rarity": "epic",
+    "unlockLevel": 10,
+    "emoji": "🏅",
+    "description": "За заслуги перед семейным бюджетом."
+  },
+  {
+    "id": "acc_halo",
+    "name": "Нимб",
+    "category": "accessory",
+    "slot": "accessory",
+    "price": 650,
+    "rarity": "legendary",
+    "unlockLevel": 18,
+    "emoji": "😇",
+    "description": "Святая дисциплина трат."
+  },
+  {
+    "id": "furn_plant",
+    "name": "Растение",
+    "category": "furniture",
+    "slot": "furniture",
+    "price": 80,
+    "rarity": "common",
+    "unlockLevel": 1,
+    "emoji": "🪴",
+    "description": "Живой уголок в комнате питомца."
+  },
+  {
+    "id": "furn_rug",
+    "name": "Коврик",
+    "category": "furniture",
+    "slot": "furniture",
+    "price": 100,
+    "rarity": "common",
+    "unlockLevel": 1,
+    "emoji": "🧶",
+    "description": "Мягко, уютно, по-домашнему."
+  },
+  {
+    "id": "furn_lamp",
+    "name": "Лампа",
+    "category": "furniture",
+    "slot": "furniture",
+    "price": 120,
+    "rarity": "common",
+    "unlockLevel": 2,
+    "emoji": "💡",
+    "description": "Свет для вечерних подсчётов."
+  },
+  {
+    "id": "furn_books",
+    "name": "Книги",
+    "category": "furniture",
+    "slot": "furniture",
+    "price": 150,
+    "rarity": "common",
+    "unlockLevel": 3,
+    "emoji": "📚",
+    "description": "Финансовая грамотность на полке."
+  },
+  {
+    "id": "furn_teddy",
+    "name": "Плюшевый друг",
+    "category": "furniture",
+    "slot": "furniture",
+    "price": 180,
+    "rarity": "rare",
+    "unlockLevel": 4,
+    "emoji": "🧸",
+    "description": "Тот, кто всегда выслушает про траты."
+  },
+  {
+    "id": "furn_guitar",
+    "name": "Гитара",
+    "category": "furniture",
+    "slot": "furniture",
+    "price": 220,
+    "rarity": "rare",
+    "unlockLevel": 6,
+    "emoji": "🎸",
+    "description": "Хобби без подписки."
+  },
+  {
+    "id": "furn_aquarium",
+    "name": "Аквариум",
+    "category": "furniture",
+    "slot": "furniture",
+    "price": 280,
+    "rarity": "rare",
+    "unlockLevel": 8,
+    "emoji": "🐠",
+    "description": "Рыбки не просят повышения бюджета."
+  },
+  {
+    "id": "furn_pc",
+    "name": "Компьютер",
+    "category": "furniture",
+    "slot": "furniture",
+    "price": 320,
+    "rarity": "epic",
+    "unlockLevel": 9,
+    "emoji": "🖥️",
+    "description": "Для ведения таблиц и работы мечты."
+  },
+  {
+    "id": "furn_fireplace",
+    "name": "Камин",
+    "category": "furniture",
+    "slot": "furniture",
+    "price": 400,
+    "rarity": "epic",
+    "unlockLevel": 13,
+    "emoji": "🔥",
+    "description": "Сжигает лишние подписки. Шутка."
+  },
+  {
+    "id": "furn_piano",
+    "name": "Пианино",
+    "category": "furniture",
+    "slot": "furniture",
+    "price": 520,
+    "rarity": "legendary",
+    "unlockLevel": 16,
+    "emoji": "🎹",
+    "description": "Рояль в кустах твоей финансовой стабильности."
+  },
+  {
+    "id": "theme_cozy",
+    "name": "Уют",
+    "category": "theme",
+    "slot": "theme",
+    "price": 150,
+    "rarity": "common",
+    "unlockLevel": 2,
+    "emoji": "🛋️",
+    "description": "Тёплый бежевый вечер.",
+    "colors": {
+      "wall": "#3b2f4a",
+      "wall2": "#57416b",
+      "floor": "#2a2233",
+      "accent": "#f0abfc"
+    }
+  },
+  {
+    "id": "theme_night",
+    "name": "Ночной город",
+    "category": "theme",
+    "slot": "theme",
+    "price": 250,
+    "rarity": "rare",
+    "unlockLevel": 5,
+    "emoji": "🌃",
+    "description": "Огни за окном и тишина.",
+    "colors": {
+      "wall": "#1e293b",
+      "wall2": "#334155",
+      "floor": "#0f172a",
+      "accent": "#38bdf8"
+    }
+  },
+  {
+    "id": "theme_forest",
+    "name": "Лесная хижина",
+    "category": "theme",
+    "slot": "theme",
+    "price": 300,
+    "rarity": "rare",
+    "unlockLevel": 7,
+    "emoji": "🌲",
+    "description": "Дерево, мох и запах хвои.",
+    "colors": {
+      "wall": "#1f3a2e",
+      "wall2": "#2f5a45",
+      "floor": "#16261f",
+      "accent": "#86efac"
+    }
+  },
+  {
+    "id": "theme_space",
+    "name": "Космос",
+    "category": "theme",
+    "slot": "theme",
+    "price": 500,
+    "rarity": "epic",
+    "unlockLevel": 11,
+    "emoji": "🚀",
+    "description": "Бюджет на орбите.",
+    "colors": {
+      "wall": "#1b1035",
+      "wall2": "#3b1d6e",
+      "floor": "#120a26",
+      "accent": "#c4b5fd"
+    }
+  },
+  {
+    "id": "theme_sakura",
+    "name": "Сакура",
+    "category": "theme",
+    "slot": "theme",
+    "price": 700,
+    "rarity": "legendary",
+    "unlockLevel": 15,
+    "emoji": "🌸",
+    "description": "Цветение и дзен.",
+    "colors": {
+      "wall": "#4a2338",
+      "wall2": "#7a3657",
+      "floor": "#2e1622",
+      "accent": "#f9a8d4"
+    }
+  },
+  {
+    "id": "food_apple",
+    "name": "Яблоко",
+    "category": "food",
+    "slot": "food",
+    "price": 15,
+    "rarity": "common",
+    "unlockLevel": 1,
+    "emoji": "🍎",
+    "description": "Полезный перекус.",
+    "consumable": true,
+    "effect": {
+      "health": 2,
+      "mood": "happy"
+    }
+  },
+  {
+    "id": "food_cookie",
+    "name": "Печенье",
+    "category": "food",
+    "slot": "food",
+    "price": 20,
+    "rarity": "common",
+    "unlockLevel": 1,
+    "emoji": "🍪",
+    "description": "Маленькая радость.",
+    "consumable": true,
+    "effect": {
+      "health": 1,
+      "mood": "happy"
+    }
+  },
+  {
+    "id": "food_coffee",
+    "name": "Кофе",
+    "category": "food",
+    "slot": "food",
+    "price": 25,
+    "rarity": "common",
+    "unlockLevel": 2,
+    "emoji": "☕",
+    "description": "Бодрость для подсчётов.",
+    "consumable": true,
+    "effect": {
+      "health": 1,
+      "mood": "happy"
+    }
+  },
+  {
+    "id": "food_sushi",
+    "name": "Суши",
+    "category": "food",
+    "slot": "food",
+    "price": 40,
+    "rarity": "rare",
+    "unlockLevel": 4,
+    "emoji": "🍣",
+    "description": "Праздник среди недели.",
+    "consumable": true,
+    "effect": {
+      "health": 4,
+      "mood": "happy"
+    }
+  },
+  {
+    "id": "food_boba",
+    "name": "Бабл-ти",
+    "category": "food",
+    "slot": "food",
+    "price": 45,
+    "rarity": "rare",
+    "unlockLevel": 5,
+    "emoji": "🧋",
+    "description": "Сладкий антистресс.",
+    "consumable": true,
+    "effect": {
+      "health": 3,
+      "mood": "happy"
+    }
+  },
+  {
+    "id": "food_pizza",
+    "name": "Пицца",
+    "category": "food",
+    "slot": "food",
+    "price": 55,
+    "rarity": "rare",
+    "unlockLevel": 6,
+    "emoji": "🍕",
+    "description": "Для вечера с друзьями.",
+    "consumable": true,
+    "effect": {
+      "health": 5,
+      "mood": "happy"
+    }
+  },
+  {
+    "id": "food_cake",
+    "name": "Тортик",
+    "category": "food",
+    "slot": "food",
+    "price": 60,
+    "rarity": "epic",
+    "unlockLevel": 8,
+    "emoji": "🎂",
+    "description": "Праздник живота.",
+    "consumable": true,
+    "effect": {
+      "health": 8,
+      "mood": "happy"
+    }
+  },
+  {
+    "id": "food_golden",
+    "name": "Золотое яблоко",
+    "category": "food",
+    "slot": "food",
+    "price": 120,
+    "rarity": "legendary",
+    "unlockLevel": 12,
+    "emoji": "🍏",
+    "description": "Лечит даже финансовую грусть.",
+    "consumable": true,
+    "effect": {
+      "health": 20,
+      "mood": "happy"
+    }
+  }
+]

@@ -1,0 +1,309 @@
+[
+  {
+    "id": "q_log3",
+    "title": "Дневник дня",
+    "description": "Запиши 3 траты",
+    "icon": "📝",
+    "type": "daily",
+    "weight": 10,
+    "minLevel": 1,
+    "condition": {
+      "type": "log_count",
+      "target": 3
+    },
+    "rewards": {
+      "coins": 30,
+      "xp": 15
+    }
+  },
+  {
+    "id": "q_log5",
+    "title": "Полный учёт",
+    "description": "Запиши 5 трат за день",
+    "icon": "🗂️",
+    "type": "daily",
+    "weight": 6,
+    "minLevel": 4,
+    "condition": {
+      "type": "log_count",
+      "target": 5
+    },
+    "rewards": {
+      "coins": 45,
+      "xp": 20
+    }
+  },
+  {
+    "id": "q_under",
+    "title": "Уложись в лимит",
+    "description": "Не превысь дневной лимит",
+    "icon": "🎯",
+    "type": "daily",
+    "weight": 10,
+    "minLevel": 1,
+    "condition": {
+      "type": "under_limit"
+    },
+    "rewards": {
+      "coins": 50,
+      "xp": 25
+    }
+  },
+  {
+    "id": "q_half",
+    "title": "Энергия на завтра",
+    "description": "Потрать не больше половины лимита",
+    "icon": "🔋",
+    "type": "daily",
+    "weight": 5,
+    "minLevel": 5,
+    "condition": {
+      "type": "energy_left",
+      "target": 50
+    },
+    "rewards": {
+      "coins": 60,
+      "xp": 30
+    }
+  },
+  {
+    "id": "q_cafe",
+    "title": "Кофейный чек",
+    "description": "Запиши трату в категории «Кафе»",
+    "icon": "☕",
+    "type": "daily",
+    "weight": 7,
+    "minLevel": 1,
+    "condition": {
+      "type": "category_count",
+      "categoryId": "cafe",
+      "target": 1
+    },
+    "rewards": {
+      "coins": 25,
+      "xp": 10
+    }
+  },
+  {
+    "id": "q_grocery",
+    "title": "Продуктовая миссия",
+    "description": "Запиши покупку продуктов",
+    "icon": "🛒",
+    "type": "daily",
+    "weight": 7,
+    "minLevel": 1,
+    "condition": {
+      "type": "category_count",
+      "categoryId": "grocery",
+      "target": 1
+    },
+    "rewards": {
+      "coins": 25,
+      "xp": 10
+    }
+  },
+  {
+    "id": "q_transport",
+    "title": "Дорога учтена",
+    "description": "Запиши 2 траты на транспорт",
+    "icon": "🚌",
+    "type": "daily",
+    "weight": 4,
+    "minLevel": 2,
+    "condition": {
+      "type": "category_count",
+      "categoryId": "transport",
+      "target": 2
+    },
+    "rewards": {
+      "coins": 30,
+      "xp": 15
+    }
+  },
+  {
+    "id": "q_note",
+    "title": "С заметками",
+    "description": "Добавь заметки к 2 тратам",
+    "icon": "✍️",
+    "type": "daily",
+    "weight": 5,
+    "minLevel": 3,
+    "condition": {
+      "type": "note_count",
+      "target": 2
+    },
+    "rewards": {
+      "coins": 35,
+      "xp": 15
+    }
+  },
+  {
+    "id": "q_work1",
+    "title": "Одна смена",
+    "description": "Отправь питомца на работу",
+    "icon": "💼",
+    "type": "daily",
+    "weight": 8,
+    "minLevel": 1,
+    "condition": {
+      "type": "work_sessions",
+      "target": 1
+    },
+    "rewards": {
+      "coins": 20,
+      "xp": 10
+    }
+  },
+  {
+    "id": "q_work2",
+    "title": "Две смены",
+    "description": "Отработай 2 смены за день",
+    "icon": "🛠️",
+    "type": "daily",
+    "weight": 4,
+    "minLevel": 4,
+    "condition": {
+      "type": "work_sessions",
+      "target": 2
+    },
+    "rewards": {
+      "coins": 35,
+      "xp": 15
+    }
+  },
+  {
+    "id": "q_nocafe",
+    "title": "Без кофе с собой",
+    "description": "День без трат в категории «Кафе»",
+    "icon": "🚫",
+    "type": "daily",
+    "weight": 5,
+    "minLevel": 3,
+    "condition": {
+      "type": "avoid_category",
+      "categoryId": "cafe"
+    },
+    "rewards": {
+      "coins": 55,
+      "xp": 25
+    }
+  },
+  {
+    "id": "q_noimpulse",
+    "title": "Без импульсов",
+    "description": "День без категории «Покупки»",
+    "icon": "🧘",
+    "type": "daily",
+    "weight": 4,
+    "minLevel": 5,
+    "condition": {
+      "type": "avoid_category",
+      "categoryId": "shopping"
+    },
+    "rewards": {
+      "coins": 55,
+      "xp": 25
+    }
+  },
+  {
+    "id": "q_pet",
+    "title": "Проверь питомца",
+    "description": "Загляни к питомцу и погладь его",
+    "icon": "🐾",
+    "type": "daily",
+    "weight": 8,
+    "minLevel": 1,
+    "condition": {
+      "type": "check_pet"
+    },
+    "rewards": {
+      "coins": 15,
+      "xp": 5
+    }
+  },
+  {
+    "id": "q_early",
+    "title": "Ранняя запись",
+    "description": "Запиши трату до полудня",
+    "icon": "🌅",
+    "type": "daily",
+    "weight": 5,
+    "minLevel": 2,
+    "condition": {
+      "type": "early_log"
+    },
+    "rewards": {
+      "coins": 30,
+      "xp": 15
+    }
+  },
+  {
+    "id": "q_weekly",
+    "title": "Итоги недели",
+    "description": "Загляни в недельный отчёт",
+    "icon": "📊",
+    "type": "weekly",
+    "weight": 3,
+    "minLevel": 5,
+    "condition": {
+      "type": "weekly_review"
+    },
+    "rewards": {
+      "coins": 70,
+      "xp": 35
+    }
+  },
+  {
+    "id": "q_health",
+    "title": "Здоровье в фокусе",
+    "description": "Запиши трату на здоровье",
+    "icon": "💊",
+    "type": "daily",
+    "weight": 4,
+    "minLevel": 3,
+    "condition": {
+      "type": "category_count",
+      "categoryId": "health",
+      "target": 1
+    },
+    "rewards": {
+      "coins": 30,
+      "xp": 15
+    }
+  },
+  {
+    "id": "q_fun",
+    "title": "Культурный досуг",
+    "description": "Запиши трату на развлечения",
+    "icon": "🎭",
+    "type": "daily",
+    "weight": 4,
+    "minLevel": 2,
+    "condition": {
+      "type": "category_count",
+      "categoryId": "entertainment",
+      "target": 1
+    },
+    "rewards": {
+      "coins": 30,
+      "xp": 15
+    }
+  },
+  {
+    "id": "q_save30",
+    "title": "Экономный день",
+    "description": "Оставь 30% энергии неистраченной",
+    "icon": "🌱",
+    "type": "daily",
+    "weight": 4,
+    "minLevel": 6,
+    "condition": {
+      "type": "energy_left",
+      "target": 30
+    },
+    "rewards": {
+      "coins": 40,
+      "xp": 20
+    }
+  }
+]

@@ -1,0 +1,5 @@
+﻿dataset,rows,columns,missing_required,missing_optional,duplicate_ids,verdict
+MOCK_DATA (1).csv,1000,4,0,0,0,"чисто, но мало полей"
+transactions.csv,501,10,0,289,0,готово; заметки опциональны
+mock_users.json → дни,180,24,0,0,0,готово к анализу
+balance_runs.csv,400,19,0,19,0,19 NaN в dayTo6000 — не ошибка

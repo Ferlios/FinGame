@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Бюджетный питомец — игровой прототип</title>
+<meta name="description" content="Прототип игры «Финансовый тамагочи»: энергия бюджета, XP, квесты, стрики и магазин косметики.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="app">
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">🪙</div>
+      <div>
+        <b>Бюджетный питомец</b>
+        <small>прототип · день <span id="dayNum">7</span> · <span id="dateText">6 ноября</span></small>
+      </div>
+    </div>
+    <div class="topActions">
+      <button class="chip" id="coinChip" title="Игровые монеты">🪙 <span id="coinNum">640</span></button>
+      <button class="iconBtn" id="achBtn" title="Достижения">🏆</button>
+      <button class="iconBtn" id="settingsBtn" title="Настройки">⚙️</button>
+    </div>
+  </header>
+
+  <section class="card hero">
+    <div class="levelRow">
+      <div class="lvlBadge"><small>LVL</small><b id="levelNum">4</b></div>
+      <div class="xpWrap">
+        <div class="xpTop"><span id="levelTitle">Джуниор</span><span id="xpText">120 / 195 XP</span></div>
+        <div class="xpBar"><i id="xpFill"></i></div>
+      </div>
+      <div class="streakChip" title="Дней подряд с записями трат">🔥 <b id="streakNum">6</b></div>
+    </div>
+
+    <div class="room" id="room">
+      <div class="window"><span class="star s1">✦</span><span class="star s2">✦</span><span class="star s3">✦</span><span class="moon">🌙</span></div>
+      <div class="furniture" id="furniture"></div>
+      <button class="petWrap mood-happy" id="petWrap" aria-label="Погладить питомца"></button>
+      <div class="bubble" id="bubble">Мне нравится, как мы сегодня держимся!</div>
+      <div class="moodTag" id="moodTag">Сыт и доволен</div>
+    </div>
+
+    <div class="healthRow">
+      <span>❤️ Здоровье</span>
+      <div class="healthBar"><i id="healthFill" style="width:84%"></i></div>
+      <b id="healthNum">84</b>
+    </div>
+  </section>
+
+  <section class="card energyCard">
+    <div class="energyTop">
+      <h2>⚡ Энергия бюджета</h2>
+      <b id="energyPct">38%</b>
+    </div>
+    <div class="energyBar" id="energyBar"><i id="energyFill" style="width:38%"></i></div>
+    <div class="energyMeta">
+      <span>Потрачено <b id="spentText">570 ₽</b> из <b id="limitText">1 500 ₽</b></span>
+      <span id="leftText">Осталось 930 ₽</span>
+    </div>
+  </section>
+
+  <section class="actions">
+    <button class="action primary" data-modal="expense"><span class="ico">➕</span> Записать трату</button>
+    <button class="action" id="workBtn"><span class="ico">💼</span> Работа <small id="workLeft">2/3</small></button>
+    <button class="action" data-modal="shop"><span class="ico">🛍️</span> Магазин</button>
+    <button class="action" data-modal="quests"><span class="ico">📜</span> Квесты <small id="questLeft">1/3</small></button>
+  </section>
+
+  <section class="card">
+    <div class="cardHead">
+      <h2>Квесты дня</h2>
+      <span class="hint" id="questHint">выполнено 1 из 3</span>
+    </div>
+    <div class="questList" id="questList"></div>
+  </section>
+
+  <section class="card">
+    <div class="cardHead">
+      <h2>Траты сегодня</h2>
+      <span class="hint" id="txCount">2 записи</span>
+    </div>
+    <div class="txList" id="txList"></div>
+  </section>
+
+  <button class="endDay" id="endDay">🌙 Завершить день</button>
+  <p class="foot">Прототип игровых данных · все цифры синтетические<br>Не является финансовым советом</p>
+</main>
+
+<!-- ============ EXPENSE ============ -->
+<div class="modal" id="modal-expense">
+  <div class="modalBackdrop" data-close></div>
+  <div class="sheet">
+    <div class="sheetHead">
+      <div><h2>Новая трата</h2><p>Запись съедает энергию бюджета и даёт XP</p></div>
+      <button class="closeBtn" data-close>✕</button>
+    </div>
+    <div class="amountWrap">
+      <input class="amountInput" id="amountInput" type="text" inputmode="numeric" placeholder="0" autocomplete="off">
+      <span class="cur">₽</span>
+    </div>
+    <div class="quick" id="quickAmounts">
+      <button data-amount="100">100 ₽</button>
+      <button data-amount="300">300 ₽</button>
+      <button data-amount="500">500 ₽</button>
+      <button data-amount="1000">1 000 ₽</button>
+    </div>
+    <p class="label">Категория</p>
+    <div class="catGrid" id="catGrid"></div>
+    <p class="label">Заметка <span style="color:var(--muted-2)">(необязательно, +3 XP)</span></p>
+    <input class="noteInput" id="noteInput" type="text" placeholder="Например: кофе с собой" maxlength="60" autocomplete="off">
+    <div class="xpPreview" id="xpPreview">Запись даст ≈ +7 XP</div>
+    <button class="submitBtn" id="addExpenseBtn">Записать трату</button>
+  </div>
+</div>
+
+<!-- ============ SHOP ============ -->
+<div class="modal" id="modal-shop">
+  <div class="modalBackdrop" data-close></div>
+  <div class="sheet">
+    <div class="sheetHead">
+      <div><h2>Магазин</h2><p>Косметика за игровые монеты · <span id="shopCoins">640</span> 🪙</p></div>
+      <button class="closeBtn" data-close>✕</button>
+    </div>
+    <div class="tabs" id="shopTabs"></div>
+    <div class="shopGrid" id="shopGrid"></div>
+  </div>
+</div>
+
+<!-- ============ QUESTS ============ -->
+<div class="modal" id="modal-quests">
+  <div class="modalBackdrop" data-close></div>
+  <div class="sheet">
+    <div class="sheetHead">
+      <div><h2>Квесты дня</h2><p>Обновляются после завершения дня</p></div>
+      <button class="closeBtn" data-close>✕</button>
+    </div>
+    <div class="questList" id="questListFull"></div>
+  </div>
+</div>
+
+<!-- ============ ACHIEVEMENTS ============ -->
+<div class="modal" id="modal-ach">
+  <div class="modalBackdrop" data-close></div>
+  <div class="sheet">
+    <div class="sheetHead">
+      <div><h2>Достижения</h2><p id="achCount">4 из 22 открыто</p></div>
+      <button class="closeBtn" data-close>✕</button>
+    </div>
+    <div class="achGrid" id="achGrid"></div>
+  </div>
+</div>
+
+<!-- ============ WORK ============ -->
+<div class="modal" id="modal-work">
+  <div class="modalBackdrop" data-close></div>
+  <div class="sheet">
+    <div class="sheetHead">
+      <div><h2>Смена питомца</h2><p>Лови монеты 5 секунд — каждая даёт +2 🪙</p></div>
+      <button class="closeBtn" data-close>✕</button>
+    </div>
+    <div class="workStage" id="workStage">
+      <div class="workBg"></div>
+      <div class="workHud">
+        <span>⏱ <b class="workTimer" id="workTimer">5.0</b></span>
+        <span>Бонус: <b id="workScore">0</b> 🪙</span>
+      </div>
+      <div class="coinField" id="coinField"></div>
+      <div class="workPet" id="workPet">🟢</div>
+      <div class="workOverlay" id="workOverlay">
+        <h3 id="workOverlayTitle">Питомец готов к смене</h3>
+        <p id="workOverlayText">Базовые монеты зависят от уровня и стрика. Успей поймать как можно больше монет.</p>
+        <button class="startBtn" id="workStartBtn">Начать смену</button>
+        <div class="workResult" id="workResult"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ SETTINGS ============ -->
+<div class="modal" id="modal-settings">
+  <div class="modalBackdrop" data-close></div>
+  <div class="sheet">
+    <div class="sheetHead">
+      <div><h2>Настройки</h2><p>Демо-режим прототипа</p></div>
+      <button class="closeBtn" data-close>✕</button>
+    </div>
+    <div class="settingRow">
+      <div><label>Дневной лимит трат</label><small>Энергия = потрачено / лимит</small></div>
+      <input class="settingInput" id="limitInput" type="number" min="300" max="20000" step="100">
+    </div>
+    <div class="settingRow">
+      <div><label>Стрик</label><small>Дней подряд с записями</small></div>
+      <b id="settingsStreak">6</b>
+    </div>
+    <div class="settingRow">
+      <div><label>Здоровье питомца</label><small>Еда в магазине восстанавливает</small></div>
+      <b id="settingsHealth">84</b>
+    </div>
+    <button class="saveBtn" id="saveSettings">Сохранить лимит</button>
+    <button class="dangerBtn" id="resetBtn">Сбросить прогресс демо</button>
+  </div>
+</div>
+
+<!-- ============ SUMMARY ============ -->
+<div class="modal" id="modal-summary">
+  <div class="modalBackdrop"></div>
+  <div class="sheet">
+    <div class="sumHero" id="sumHero">🌙</div>
+    <h3 class="sumTitle" id="sumTitle">День 7 завершён</h3>
+    <p class="sumSub" id="sumSub">Вот что получилось</p>
+    <div class="sumGrid" id="sumGrid"></div>
+    <p class="sumNote" id="sumNote"></p>
+    <button class="submitBtn" data-close>Продолжить</button>
+  </div>
+</div>
+
+<div class="toasts" id="toasts"></div>
+<div class="confetti" id="confetti"></div>
+
+<script src="data.js"></script>
+<script src="game.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
