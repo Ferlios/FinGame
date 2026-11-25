@@ -17,6 +17,9 @@
 | Что | Файл |
 |---|---|
 | Поиграть в прототип | [`financial-tamagotchi/prototype/standalone.html`](financial-tamagotchi/prototype/standalone.html) |
+| Ноутбук анализа в Colab | [Открыть в Google Colab](https://colab.research.google.com/github/Ferlios/FinGame/blob/main/analysis/FinGame_analysis.ipynb) |
+| Ноутбук анализа (файл) | [`analysis/FinGame_analysis.ipynb`](analysis/FinGame_analysis.ipynb) |
+| PDF-версия анализа | [`analysis/FinGame_analysis.pdf`](analysis/FinGame_analysis.pdf) |
 | Подробный отчёт по данным | [`analysis/report.md`](analysis/report.md) |
 | Визуальный дашборд | [`analysis/dashboard.html`](analysis/dashboard.html) |
 | Документация прототипа | [`financial-tamagotchi/README.md`](financial-tamagotchi/README.md) |
@@ -90,6 +93,9 @@ FinGame/
 ├── Аналоги.txt                # обзор конкурентов
 ├── analysis/                  # анализ данных
 │   ├── analyze.py             # один скрипт: данные → таблицы → графики → отчёт
+│   ├── FinGame_analysis.ipynb # пошаговый ноутбук для Colab / Jupyter
+│   ├── FinGame_analysis.html  # HTML-версия ноутбука
+│   ├── FinGame_analysis.pdf   # PDF-версия без кода
 │   ├── report.md              # подробный отчёт на русском
 │   ├── dashboard.html         # автономный дашборд с встроенными графиками
 │   ├── figures/               # 10 PNG-графиков
@@ -110,7 +116,9 @@ FinGame/
 
 ### Анализ данных
 
-Из корня репозитория:
+**Быстрый способ — ноутбук в Colab:** [открыть `FinGame_analysis.ipynb`](https://colab.research.google.com/github/Ferlios/FinGame/blob/main/analysis/FinGame_analysis.ipynb) и нажать **Runtime → Run all**.
+
+Локальный запуск скрипта из корня репозитория:
 
 ```powershell
 python -m pip install -r analysis/requirements.txt

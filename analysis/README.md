@@ -28,11 +28,26 @@ python analysis/analyze.py
 
 | Файл | Что это |
 |---|---|
+| `FinGame_analysis.ipynb` | Пошаговый ноутбук для Google Colab / Jupyter: код, таблицы, графики и выводы |
+| `FinGame_analysis.html` | HTML-версия ноутбука с уже выполненными ячейками |
+| `FinGame_analysis.pdf` | PDF-версия ноутбука: только текст, таблицы и графики, без кода |
 | `report.md` | Подробный отчёт на русском: методика, таблицы, графики, выводы и ограничения |
 | `dashboard.html` | Автономный дашборд: один HTML-файл с встроенными картинками, открывается двойным кликом |
 | `figures/*.png` | 10 графиков |
 | `output/*.csv` | Очищенные данные и сводные таблицы |
 | `output/summary.json` | Ключевые цифры в машинночитаемом виде |
+
+---
+
+## Ноутбук в Google Colab
+
+Самый простой способ посмотреть анализ — открыть ноутбук в Colab:
+
+**https://colab.research.google.com/github/Ferlios/FinGame/blob/main/analysis/FinGame_analysis.ipynb**
+
+Затем нажмите **Runtime → Run all**. Ноутбук сам склонирует репозиторий и загрузит данные. Если нужен PDF, в Colab выберите **File → Print → Save as PDF**.
+
+Ноутбук также открывается локально в Jupyter: запустите `jupyter notebook` из папки `analysis/`.
 
 ---
 
