@@ -1,7 +1,0 @@
-﻿user_id,name,archetype,daily_limit,expenses,spent,avg_daily_spent,days_within_limit,final_level,final_coins,best_log_streak,best_budget_streak,avg_daily_coins,avg_daily_xp,achievements,spent_per_active_day
-u_001,Аня,disciplined,1800,101,43570,1452,24,13,5511,28,10,142,83,14,431.38613861386136
-u_002,Марк,coffee_addict,1500,72,47640,1588,17,10,3195,35,7,89,54,10,661.6666666666666
-u_003,Лиза,impulse_buyer,2000,83,67440,2248,10,10,3820,28,3,99,54,9,812.5301204819277
-u_004,Дима,weekend_spender,2500,69,63770,2126,26,11,4979,39,12,116,64,11,924.2028985507246
-u_005,Тимур,newbie,1000,50,19760,659,18,7,1841,7,5,55,35,6,395.2
-u_006,Соня,frugal_saver,2200,126,41080,1369,30,14,7946,51,46,185,103,19,326.031746031746
